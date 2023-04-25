@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
 .solution_section {
   padding: 90px 10px;
 }
@@ -19,15 +21,15 @@
   align-items: center;
 }
 
-.solution_headings button{
-    border: none;
-    background-color: #BBF7D0;
-    padding: 5px 10px;
-    width: fit-content;
-    color: #53A44B;
-    border-radius: 30px 30px;
-    font-size: 15px;
-    font-weight: 700;
+.solution_headings button {
+  border: none;
+  background-color: #bbf7d0;
+  padding: 5px 10px;
+  width: fit-content;
+  color: #53a44b;
+  border-radius: 30px 30px;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 .solution_headings h2 {
@@ -38,7 +40,74 @@
 }
 
 .solution_headings p {
-    font-size: 20px;
-    color: var(--p-color);
-    padding: 0px 180px;
-  }
+  font-size: 20px;
+  color: var(--p-color);
+  padding: 0px 180px;
+}
+
+.solution_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.solution_box_left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 45%;
+  padding-top: 50px;
+}
+
+.font-change {
+  font-family: "Architects Daughter", cursive;
+  color: #5d5cfc;
+  font-size: 20px;
+}
+
+.solution_box_left h3 {
+  color: white;
+  font-size: 30px;
+}
+
+.solution_box_left h4 {
+  font-size: 20px;
+  color: var(--p-color);
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.solution_box_left-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.list {
+  display: flex;
+  gap: 5px;
+  font-size: 18px;
+  align-items: center;
+}
+
+.list_icon_color {
+  color: #65c660;
+}
+
+.list p {
+  color: var(--p-color);
+  font-size: 18px;
+}
+
+.solution_box_right {
+  width: 45%;
+}
+
+.solution_box_right img {
+  width: 100%;
+}
+
+.solution_box_reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
