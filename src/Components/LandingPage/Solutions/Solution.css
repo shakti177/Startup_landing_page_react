@@ -1,0 +1,44 @@
+.solution_section {
+  padding: 90px 10px;
+}
+
+.solution_container {
+  padding: 10px 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.solution_headings {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.solution_headings button{
+    border: none;
+    background-color: #BBF7D0;
+    padding: 5px 10px;
+    width: fit-content;
+    color: #53A44B;
+    border-radius: 30px 30px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.solution_headings h2 {
+  font-size: 40px;
+  color: white;
+  padding: 0px 140px;
+  font-weight: 900;
+}
+
+.solution_headings p {
+    font-size: 20px;
+    color: var(--p-color);
+    padding: 0px 180px;
+  }
