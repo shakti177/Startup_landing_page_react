@@ -111,3 +111,7 @@
   flex-direction: row-reverse;
   justify-content: space-between;
 }
+
+.line{
+    border-top: 0.5px solid rgb(61, 60, 60);
+}

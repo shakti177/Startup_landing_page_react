@@ -109,7 +109,8 @@ const Solution = () => {
             <img src={solution3} alt="" />
           </div>
         </div>
-
+        <div className="line">
+        </div>
       </div>
     </section>
   );
