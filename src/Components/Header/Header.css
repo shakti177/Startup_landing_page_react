@@ -11,6 +11,7 @@
 
 .logo img{
     width: 40px;
+    cursor: pointer;
 }
 
 .button_row{
@@ -25,6 +26,12 @@
     font-weight: 500;
 }
 
+.button1:hover{
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
 .button2{
     border: none;
     background-color: #5D5DFF;
@@ -33,4 +40,10 @@
     border-radius: 3px;
     font-size: 15px;
     font-weight: 500;
+}
+
+.button2:hover{
+    background-color: #2d2dd6;
+    transition: 0.3s;
+    cursor: pointer;
 }
