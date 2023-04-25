@@ -1,0 +1,79 @@
+.hero_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding: 60px;
+}
+
+.hero_text h2 {
+  font-size: 55px;
+  color: white;
+  font-weight: 800;
+}
+
+.hero_text p {
+  color: var(--p-color);
+  font-size: 20px;
+  text-align: center;
+  padding: 0px 280px;
+}
+
+.HomeButton_row {
+  display: flex;
+  gap: 20px;
+}
+
+.homebutton1,
+.homebutton2 {
+  border: none;
+  border-radius: 3px;
+  background-color: #5d5dff;
+  color: white;
+  padding: 15px 35px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.homebutton1:hover {
+  background-color: #2d2dd6;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.homebutton2 {
+  background-color: #3c4046;
+  color: white;
+}
+
+.homebutton2:hover {
+  background-color: #25282c;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero_img {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.hero_img {
+  padding: 10px 200px;
+}
+
+.playbuttonimg {
+  position: absolute;
+  top: 38%;
+  left: 45%;
+  background: transparent;
+  width: 170px;
+  height: 170px;
+  filter: opacity(80%);
+}
+
+.playbuttonimg:hover {
+  filter: opacity(50%);
+  transition: 0.3s;
+}

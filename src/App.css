@@ -1,0 +1,12 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"); */
+
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #151719;
+  font-family: 'helvetica neue', sans-serif;
+}
+
+:root {
+  --p-color: #9ea7af;
+}

@@ -1,0 +1,36 @@
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 170px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.logo img{
+    width: 40px;
+}
+
+.button_row{
+    display:flex;
+    gap: 20px;
+}
+
+.button1{
+    border: none;
+    color: #5D5DFF;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.button2{
+    border: none;
+    background-color: #5D5DFF;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 500;
+}
