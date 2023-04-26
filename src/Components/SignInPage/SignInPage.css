@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 70px 170px;
+  padding: 40px 170px;
 }
 
 .signin_content {
@@ -15,8 +15,138 @@
   text-align: center;
 }
 
-.signin_form {
+.signin_form_content {
   display: flex;
-  flex-direction: row;
-  padding: 50px 150px;
+  flex-direction: column;
+  padding: 60px 200px;
+  gap: 40px;
+}
+
+.form_button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  cursor: pointer;
+  /* padding: 15px 100px; */
+}
+
+.form_icon {
+  background-color: red;
+  color: white;
+  padding: 19px 15px;
+}
+
+.form_button p {
+  background-color: red;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 15px 100px;
+}
+
+.form_line1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hr_line1 {
+  width: 90px;
+  opacity: 10%;
+}
+
+.line1_content {
+  color: var(--p-color);
+}
+
+.form_feilds{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.feild_one{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.feild_one label{
+  color: #c8cfd5;
+  font-size: 15px;
+}
+
+.feild_one input{
+  border: 1px solid rgb(49, 48, 48);
+  padding: 15px;
+  border-radius: 3px;
+  font-size: 17px;
+  color: rgb(135, 133, 133);
+}
+
+.feild_one ::placeholder{
+  font-size: 17px;
+  color: rgb(135, 133, 133);
+}
+
+.form_line2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.radio_button{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.radio_button p{
+  color: var(--p-color);
+}
+
+.form2_content p{
+  color: #5D5CFC;
+}
+
+.form2_content p:hover{
+  color: var(--p-color);
+  cursor: pointer;
+}
+
+.form2_content a{
+  text-decoration: none;
+}
+
+.form_button-2 button{
+  background-color: #5D5CFC;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 15px 170px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.signin_last_line{
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.signin_last_line p{
+  color: var(--p-color);
+}
+
+.signin_last_line span{
+  color: #5D5CFC;
+}
+
+.signin_last_line a{
+  text-decoration: none;
+}
+
+.signin_last_line span:hover{
+  color: var(--p-color);
+  cursor: pointer;
 }
