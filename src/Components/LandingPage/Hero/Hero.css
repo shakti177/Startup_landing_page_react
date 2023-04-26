@@ -76,4 +76,5 @@
 .playbuttonimg:hover {
   filter: opacity(50%);
   transition: 0.3s;
+  cursor: pointer;
 }

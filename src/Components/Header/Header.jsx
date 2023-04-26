@@ -11,8 +11,8 @@ const Header = () => {
       </div>
       <div className="buttons">
         <div className="button_row">
-          <button className="button1">Sign In</button>
-          <button className="button2">Sign Up</button>
+          <Link to="/signin"><button className="button1">Sign In</button></Link>
+          <Link to="/signup"><button className="button2">Sign Up</button></Link>
         </div>
       </div>
     </section>
