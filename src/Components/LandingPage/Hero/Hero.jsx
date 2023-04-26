@@ -19,7 +19,7 @@ const Hero = () => {
       </div>
       <div className="hero_img">
         <img src={heroimg} alt="" />
-        <img src={playbutton} alt="" className="playbuttonimg"/>
+        <a href="https://www.youtube.com/watch?v=yeiYJ57DrH4&ab_channel=MyFirstMillion" target="_blank"><img src={playbutton} alt="" className="playbuttonimg"/></a>
       </div>
     </section>
   );
