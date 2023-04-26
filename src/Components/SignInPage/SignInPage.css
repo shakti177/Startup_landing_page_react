@@ -1,0 +1,22 @@
+.signin_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 170px;
+}
+
+.signin_content {
+  padding: 10px 120px;
+}
+
+.signin_content h1 {
+  font-size: 55px;
+  color: white;
+  text-align: center;
+}
+
+.signin_form {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 150px;
+}

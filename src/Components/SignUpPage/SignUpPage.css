@@ -1,0 +1,23 @@
+.signup_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 170px;
+  }
+  
+  .signup_content {
+    padding: 10px 120px;
+  }
+  
+  .signup_content h1 {
+    font-size: 55px;
+    color: white;
+    text-align: center;
+  }
+  
+  .signup_form {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 150px;
+  }
+  
