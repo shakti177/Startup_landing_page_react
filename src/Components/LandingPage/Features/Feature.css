@@ -12,7 +12,6 @@
 .feature_text {
   display: flex;
   flex-direction: column;
-  gap: 10px;
   justify-content: center;
   text-align: center;
   gap: 20px;
