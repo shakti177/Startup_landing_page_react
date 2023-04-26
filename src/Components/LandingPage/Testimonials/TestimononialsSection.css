@@ -32,13 +32,13 @@
 
 .testimonial_row {
   display: flex;
-  gap: 25px;
+  gap: 30px;
 }
 
 .testimonial_column {
   background-color: #25282c;
-  width: 27%;
-  padding: 20px;
+  width: 30%;
+  padding: 25px;
   display: flex;
   flex-direction: column;
   gap: 20px;

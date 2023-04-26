@@ -4,6 +4,7 @@ import Feature from '../Components/LandingPage/Features/Feature';
 import Solution from '../Components/LandingPage/Solutions/Solution';
 import FooterPage from '../Components/LandingPage/Footer/FooterPage';
 import TestimononialsSection from '../Components/LandingPage/Testimonials/TestimononialsSection';
+import Newsletter from '../Components/LandingPage/Newsletter/Newsletter';
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Feature/>
       <Solution/>
       <TestimononialsSection/>
+      <Newsletter/>
       <FooterPage/>
     </div>
   )
