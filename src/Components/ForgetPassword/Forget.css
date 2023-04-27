@@ -1,0 +1,92 @@
+.forget_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 170px;
+}
+
+.forget_content {
+  padding: 10px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+
+.forget_content h1 {
+  font-size: 55px;
+  color: white;
+  text-align: center;
+}
+
+.forget_content p {
+  font-size: 20px;
+  color: rgb(148, 147, 147);
+  text-align: center;
+}
+
+.forget_form_section {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 200px;
+  gap: 10px;
+}
+
+.forget_form_feilds {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.forget_feild {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.forget_feild label {
+  color: #c8cfd5;
+  font-size: 15px;
+}
+
+.forget_feild input {
+  border: 1px solid rgb(49, 48, 48);
+  padding: 15px;
+  border-radius: 3px;
+  font-size: 17px;
+  color: rgb(135, 133, 133);
+}
+
+.forget_feild ::placeholder {
+  font-size: 17px;
+  color: rgb(135, 133, 133);
+}
+
+.forget_button button{
+    background-color: #5D5CFC;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 15px 130px;
+    font-size: 17px;
+    font-weight: 500;
+  }
+  
+  .forget_button button:hover{
+    background-color: #4343c0;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .forget_last_line span{
+    color: #5D5CFC;
+  }
+  
+  .forget_last_line a{
+    text-decoration: none;
+  }
+  
+  .forget_last_line span:hover{
+    color: var(--p-color);
+    cursor: pointer;
+  }
