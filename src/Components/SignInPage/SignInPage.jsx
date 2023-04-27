@@ -32,14 +32,14 @@ const SignIn = () => {
             <form className="form_feilds">
               <div className="feild_one">
                 <label htmlFor="email">Email</label>
-                <input type="text" placeholder="you@yourcompany.com" />
+                <input type="text" placeholder="you@yourcompany.com" required/>
               </div>
 
               <div className="feild_one">
                 <label htmlFor="password">Password</label>
                 <input
                   type="password"
-                  placeholder="Password (at least 10 characters)"
+                  placeholder="Password (at least 10 characters)" required
                 />
               </div>
 
@@ -54,7 +54,7 @@ const SignIn = () => {
               </div>
 
               <div className="form_button-2">
-                <button>Sign in</button>
+                <button type="submit">Sign in</button>
               </div>
             </form>
             <div className="signin_last_line">
